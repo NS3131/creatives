@@ -13,16 +13,16 @@ body{
  padding:10px;
 }
 .row {
-  border: 0.3px solid grey;
+  /* border: 0.3px solid grey; */
   padding: 15px;
   border-radius: 5px;
-  background: #f0f0f0;
+  /* background: #f0f0f0; */
 }
 
 .col {
   border: inherit;
   padding: 10px 10px;
-  background: #e0e0e0;
+  /* background: #e0e0e0; */
 }
 
 /* first row style */
@@ -49,6 +49,10 @@ body{
 .col-75{
     font-size: 20px;
 }
+.brand{
+    font-size: 25px;
+    /* rgb (0,200,255) */
+}
 .col-25{
     display: flex;
     justify-content: end;
@@ -65,7 +69,6 @@ body{
     gap: 10px;
     padding: 10px 10px;
     cursor: pointer;
-    /* border: solid 2px black; */
     letter-spacing: 1px;
     font-weight: 600;
     font-size: 17px;
@@ -84,13 +87,10 @@ body{
     padding-bottom: none;
 }
 
-.row-3{
+.row-3{ 
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: none;
 }
 
-.row-4{
-    
-}
