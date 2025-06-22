@@ -89,3 +89,6 @@
     padding-top: none;
 } */
 
+.row-5{
+    display: flex;
+}
