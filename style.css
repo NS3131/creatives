@@ -89,6 +89,12 @@
     padding-top: none;
 } */
 
+.row-1{
+    display: flex;
+}
 .row-5{
+    display: flex;
+}
+.row-8{
     display: flex;
 }
