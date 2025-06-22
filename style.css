@@ -58,11 +58,11 @@
     text-align: center;
     align-items: center;
     font-size: 30px;
-    padding-top: 20px;
+    padding-top: 25px;
 }
 
 .row-3{
-    padding-top: 20px;
+    padding-top: 25px;
 }
 
 img {
@@ -71,14 +71,24 @@ img {
 
 .row-4{
     font-size: 30px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-top: 25px;
 }
 
 .row-5{
     display: flex;
     gap: 10px;
+    padding-top: 25px;
    
+}
+.row-6{
+    font-size: 10px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.row-7{
+    
 }
 /* .row-8{
     display: flex;
