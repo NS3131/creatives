@@ -54,16 +54,31 @@
             width: 100px; /* Same as button width for balance */
         }
 
-
 .row-2{
     text-align: center;
     align-items: center;
     font-size: 30px;
+    padding-top: 20px;
 }
 
+.row-3{
+    padding-top: 20px;
+}
+
+img {
+    border-radius: 2px;
+}
+
+.row-4{
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
 
 .row-5{
     display: flex;
+    gap: 10px;
+   
 }
 /* .row-8{
     display: flex;
