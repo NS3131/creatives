@@ -26,7 +26,7 @@
         .logo-container {
             position: absolute;
             left: 50%;
-            /* transform: translateX(-50%); */
+            transform: translateX(-50%);
         }
         
         .logo {
@@ -44,6 +44,7 @@
             cursor: pointer;
             /* transition: background-color 0.2s; */
         }
+
         
         .app-button:hover {
             background-color: #1d4ed8;
@@ -88,54 +89,37 @@ img {
 }
 
 .row-7{
-    
+    font-size: 30px;
+    padding-bottom: 25px;
+    padding-top: 25px;
 }
 /* .row-8{
     display: flex;
 } */
+
+.row-9{
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    padding-top: 25px;
+}
+
+.row-10{
+    text-align:center;
+    align-items:center;
+    
+}
+
+
 .row-12{
     background-color: black;
     color: white;
 }
 
-/* Navbar styling */
-        .navbar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 15px 20px;
-            background-color: #ffffff;
-            position: relative;
-        }
+
+       
         
-        /* Logo container - absolutely centered */
-        .logo-container {
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-        }
         
-        .logo {
-            height: 40px; /* Adjust logo height as needed */
-        }
         
-        /* Click App button styling */
-        .app-button {
-            background-color: #2563eb;
-            color: white;
-            border: none;
-            padding: 8px 16px;
-            border-radius: 6px;
-            font-weight: 500;
-            cursor: pointer;
-            transition: background-color 0.2s;
-        }
-        
-        .app-button:hover {
-            background-color: #1d4ed8;
-        }
-        
-        /* Empty div for left side balance */
-        .left-spacer {
-            width: 100px; /* Same as button width for balance */
-        }
+      
+       
